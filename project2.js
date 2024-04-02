@@ -9,8 +9,6 @@ const li7 = document.querySelector(".li7");
 const li8 = document.querySelector(".li8");
 
 //animation script for nav bar
-navAnimator();
-
 function navAnimator() {
     li1.style.transition = li8.style.transition = '1.2s ease-out 0.5s';
     li1.style.transform = li8.style.transform = 'translateX(0%)';
@@ -25,3 +23,4 @@ function navAnimator() {
     li1.style.opacity = li2.style.opacity = li3.style.opacity = li4.style.opacity = li5.style.opacity = 
     li6.style.opacity = li7.style.opacity = li8.style.opacity = '100%';
 }
+navAnimator();
