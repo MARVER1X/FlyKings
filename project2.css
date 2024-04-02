@@ -195,46 +195,46 @@ body {
 }
 .li1 {
     opacity: 50%;
-    transition: ease-in;
+    transition: 1s ease-out;
     transform: translateX(350%);
 }
 .li2 {
     opacity: 50%;
-    transition: ease-in;
+    transition: 1s ease-out;
     transform: translateX(250%);
 }
 .li3 {
     opacity: 50%;
-    transition: ease-in;
+    transition: 1s ease-in;
     transform: translateX(150%);
 }
 .li4 {
     opacity: 50%;
-    transition: ease-in;
+    transition: 1s ease-in;
     transform: translateX(50%)
 }
 .li5 {
     opacity: 50%;
     z-index: 4;
-    transition: ease-in;
+    transition: 1s ease-in;
     transform: translateX(-50%)
 }
 .li6 {
     opacity: 50%;
     z-index: 3;
-    transition: ease-in;
+    transition: 1s ease-in;
     transform: translateX(-150%);
 }
 .li7 {
     opacity: 50%;
     z-index: 2;
-    transition: ease-in;
+    transition: 1s ease-out;
     transform: translateX(-250%);
 }
 .li8 {
     opacity: 50%;
     z-index: 1;
-    transition: ease-in;
+    transition: 1s ease-out;
     transform: translateX(-350%);
 }
 #li1 {
